@@ -1,5 +1,3 @@
-import torch
-import os
 import random
 import numpy as np
 from datapro import Simdata_pro
