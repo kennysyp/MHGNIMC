@@ -41,7 +41,7 @@ class NIMC(nn.Module):
         return x.mm(y.t())
 
 
-# extract similarity feature
+# 提取miRNA特征
 class EmbeddingM(nn.Module):
     def __init__(self, args):
         super(EmbeddingM, self).__init__()
@@ -112,7 +112,7 @@ class EmbeddingM(nn.Module):
 
         return x
 
-
+# 提取疾病特征
 class EmbeddingD(nn.Module):
     def __init__(self, args):
         super(EmbeddingD, self).__init__()
