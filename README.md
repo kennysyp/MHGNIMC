@@ -5,3 +5,9 @@ In recent years, a large number of biological experiments have strongly shown th
 ## Flowchart
 
 ## Requirement
+To run the code, you need the following dependencies:
+* Python == 3.8
+* pytorch == 1.12.0
+* PyTorch Geometry == 2.3.1
+* dgl == 0.9.1
+* scikit-learn == 1.2.1
