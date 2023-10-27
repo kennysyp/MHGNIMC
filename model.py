@@ -1,7 +1,5 @@
 import torch
 from torch import nn
-from dgl import function as fn
-import numpy as np
 from torch_geometric.nn import GCNConv, GATConv
 
 # MHGNIMC模型
