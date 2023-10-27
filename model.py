@@ -1,7 +1,6 @@
 import torch
 from torch import nn
 from dgl import function as fn
-from otherlayers import *
 import numpy as np
 from torch_geometric.nn import GCNConv, GATConv
 
